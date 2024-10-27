@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Pin Drop with Remarks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="sidebar">
+        <h3>Saved Pins</h3>
+        <ul id="pin-list"></ul>
+    </div>
+    <div id="popup-form">
+        <p id="address">Fetching address...</p>
+        <input type="text" id="remarks" placeholder="Enter remarks">
+        <button id="save-pin">Save Pin</button>
+        <button id="cancel">Cancel</button>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
